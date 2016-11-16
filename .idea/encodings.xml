@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/util/DensityUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/util/FullScreenVideoView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/util/HorizontalSlideAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/util/HorizontalSlideDeleteListView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/util/LightnessController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/util/VolumnController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/util/VolumnView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/anim/anim_item_delete.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/anim/option_entry_from_bottom.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/anim/option_entry_from_top.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/anim/option_leave_from_bottom.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/anim/option_leave_from_top.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/line_point.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ling.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/top_btnback.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/video_btn_down.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/video_btn_on.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/video_line01.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/video_line02.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/seekbar.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/item_horizontal_slide_listview.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/vv.xml" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="start"
+        android:text="走起" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="stop"
+        android:text="停止" />
+
+    <Button
+        android:id="@+id/startfor0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startFor0"
+        android:text="从头开始" />
+
+    <Button
+        android:id="@+id/btn_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="scroll"
+        android:text="滚" />
+
+    <util.AutoText
+        android:id="@+id/auto_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#339320"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="温馨提示：观看视频、下载视频、下载图片无需消耗流量"
+        android:textColor="#000000"
+        android:textSize="20dp"></util.AutoText>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="@dimen/x600"
+        android:layout_height="wrap_content"
+        android:background="#339320"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="温馨提示：观看视频、下载视频、下载图片无需消耗流量"
+        android:textColor="#000000"
+        android:textSize="20dp"></TextView>
+
+</LinearLayout>

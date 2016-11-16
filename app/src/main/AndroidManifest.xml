@@ -18,6 +18,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".LicenseKeyboardActivity"></activity>
+        <activity android:name=".ShowEditTextActivity"></activity>
+        <activity android:name=".FragmentContainActivity"></activity>
+        <activity android:name=".AlarmManagerTestActivity"></activity>
+        <activity android:name=".MarqueeTestActivity"></activity>
+        <activity android:name=".VideoPlayerActivity"></activity>
+        <activity android:name=".ViewPagerTestActivity"></activity>
+        <activity android:name=".ListviewItemDeleteActivity"></activity>
+        <activity android:name=".DefinedMarqueeActivity"></activity>
+
+        <receiver android:name="receiver.AlarmTestReceiver">
+            <intent-filter>
+                <action android:name="alarm_clock"></action>
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
