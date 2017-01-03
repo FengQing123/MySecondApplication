@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/app/src/main/java/util/DensityUtil.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/util/FullScreenVideoView.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/util/HorizontalSlideAdapter.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/util/HorizontalSlideDeleteListView.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/util/LightnessController.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/util/VolumnController.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/util/VolumnView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jiaw2/mysecondapplication/calender/retrofit/ApiException.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jiaw2/mysecondapplication/calender/retrofit/ApiTypeAdapterFactory.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jiaw2/mysecondapplication/calender/retrofit/RetrofitProvider.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jiaw2/mysecondapplication/calender/retrofit/ToStringConverter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jiaw2/mysecondapplication/util/DensityUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jiaw2/mysecondapplication/util/FullScreenVideoView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jiaw2/mysecondapplication/util/HorizontalSlideAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jiaw2/mysecondapplication/util/HorizontalSlideDeleteListView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jiaw2/mysecondapplication/util/LightnessController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jiaw2/mysecondapplication/util/VolumnController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/jiaw2/mysecondapplication/util/VolumnView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jniLibs/armeabi" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libUninstallBrowser.so" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jniLibs/armeabi/liblocSDK7.so" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libobserver.so" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/anim/anim_item_delete.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/anim/option_entry_from_bottom.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/anim/option_entry_from_top.xml" charset="GBK" />
@@ -21,8 +29,17 @@
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/video_line01.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/video_line02.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/seekbar.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_calendar.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/griditem_custom_calendar_item.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/item_horizontal_slide_listview.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/listitem_calendar_content.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/listitem_calendar_header.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/vv.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_btn_calendar_heart_down.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_btn_calendar_heart_normal.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_like_normal.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_time.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/multi-image-selector" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
