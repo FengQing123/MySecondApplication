@@ -2,14 +2,34 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.jiaw2.mysecondapplication">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!--百度定位-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_LOGS"></uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
     <application
+        android:name=".AppContext"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".Activity.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -18,21 +38,65 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LicenseKeyboardActivity"></activity>
-        <activity android:name=".ShowEditTextActivity"></activity>
-        <activity android:name=".FragmentContainActivity"></activity>
-        <activity android:name=".AlarmManagerTestActivity"></activity>
-        <activity android:name=".MarqueeTestActivity"></activity>
-        <activity android:name=".VideoPlayerActivity"></activity>
-        <activity android:name=".ViewPagerTestActivity"></activity>
-        <activity android:name=".ListviewItemDeleteActivity"></activity>
-        <activity android:name=".DefinedMarqueeActivity"></activity>
+        <activity android:name=".Activity.LicenseKeyboardActivity"></activity>
+        <activity android:name=".Activity.ShowEditTextActivity"></activity>
+        <activity android:name=".Activity.FragmentContainActivity"></activity>
+        <activity android:name=".Activity.AlarmManagerTestActivity"></activity>
+        <activity android:name=".Activity.MarqueeTestActivity"></activity>
+        <activity android:name=".Activity.VideoPlayerActivity"></activity>
+        <activity android:name=".Activity.ViewPagerTestActivity"></activity>
+        <activity android:name=".Activity.ListviewItemDeleteActivity"></activity>
+        <activity android:name=".Activity.DefinedMarqueeActivity"></activity>
+        <activity android:name=".Activity.WebViewActivity"></activity>
+        <activity android:name=".Activity.NDKActivity"></activity>
+        <activity android:name=".Activity.DownLoadActivity"></activity>
+        <activity android:name=".Activity.MVPActivity"></activity>
+        <activity android:name=".Activity.LeakActivity"></activity>
+        <activity android:name=".Activity.BaiduLocationActivity"></activity>
+        <activity android:name=".Activity.RoundDialActivity"></activity>
+        <activity android:name=".Activity.CalendarActivity"></activity>
+        <activity android:name=".Activity.PLVideoTextureViewActivity"></activity>
+        <activity android:name=".Activity.PicCarouselActivity"></activity>
 
-        <receiver android:name="receiver.AlarmTestReceiver">
+        <service android:name=".service.StartScreenReceiverService"></service>
+
+        <receiver android:name=".receiver.AlarmTestReceiver">
             <intent-filter>
                 <action android:name="alarm_clock"></action>
             </intent-filter>
         </receiver>
+
+        <!--手机重启-->
+        <receiver
+            android:name=".receiver.PhoneRestartReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+                <category android:name="android.intent.category.HOME"></category>
+            </intent-filter>
+        </receiver>
+
+        <!--网络监听-->
+        <receiver android:name=".receiver.NetworkChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+
+        <!--百度定位-->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2"></action>
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="XcZV11GVLqQpi67chcu8ITONnVpXSYjf" />
     </application>
 
 </manifest>

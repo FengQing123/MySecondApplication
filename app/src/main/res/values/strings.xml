@@ -1,4 +1,57 @@
 <resources>
     <string name="app_name">MySecondApplication</string>
     <string name="action_settings">Settings</string>
+    <string name="startlocation">开始定位</string>
+    <string name="stoplocation">停止定位</string>
+    <string name="calendar_item_new_count">%d条</string>
+
+    <string name="main_homepage">首页</string>
+    <string name="main_attention">关注</string>
+    <string name="main_skill">技巧</string>
+    <string name="main_my">我的</string>
+
+    <string name="main_select_recomment">精选推荐</string>
+    <string name="main_hot">热门夯作</string>
+    <string name="main_newest_work">最新作品</string>
+    <string name="more">更多</string>
+    <string name="back_top">返回顶部</string>
+
+    <string name="my_edit_info">编辑个人信息</string>
+    <string name="my_work">作品</string>
+    <string name="my_forwarded">转发</string>
+    <string name="my_attention">关注</string>
+    <string name="my_fans">粉丝</string>
+    <string name="my_my_messages">我的消息</string>
+    <string name="my_my_pictures">我的图集</string>
+    <string name="my_attention_friends">关注好友</string>
+    <string name="my_transmit_list">传输列表</string>
+    <string name="my_draft_box">草稿箱</string>
+
+    <string name="setting_title">我的账号</string>
+    <string name="setting_my_account">我的账号</string>
+    <string name="setting_privacy">隐私</string>
+    <string name="setting_currency">通用</string>
+    <string name="setting_feedback">意见反馈</string>
+    <string name="setting_about_us">关于我们</string>
+    <string name="setting_clear_history_cache">清除历史缓存</string>
+    <string name="setting_quit">退出</string>
+
+    <string name="work_detail_comment">评论</string>
+    <string name="work_detail_score">评分</string>
+    <string name="work_detail_forwarded">转发</string>
+    <string name="work_detail_share">分享</string>
+    <string name="work_detail_work_score">作品评分：</string>
+    <string name="work_detail_related_star">相关明星</string>
+    <string name="work_detail_fill_stills">影片剧照</string>
+    <string name="work_detail_other_works">Ta的其他作品</string>
+    <string name="work_detail_acting">演技</string>
+    <string name="work_detail_photography">拍摄</string>
+    <string name="work_detail_screen_writer">编剧</string>
+    <string name="work_detail_later_period">后期</string>
+
+
+    <string name="network_set_tip">网络设置提示</string>
+    <string name="network_set_confirm">网络连接不可用,是否进行设置？</string>
+    <string name="common_cancel">取消</string>
+    <string name="set">设置</string>
 </resources>
