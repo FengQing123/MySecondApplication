@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        listening();
+//        listening();
 //        new Thread(runnable).start();
     }
 
@@ -128,6 +128,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_picCarousel:
                 UIHelper.showActivity(this, PicCarouselActivity.class);
+                break;
+            case R.id.btn_SQLite:
+                UIHelper.showActivity(this, SQLiteTestActivity.class);
                 break;
         }
     }
