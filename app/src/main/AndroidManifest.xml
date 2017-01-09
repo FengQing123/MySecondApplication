@@ -59,6 +59,8 @@
         <activity android:name=".Activity.PLVideoTextureViewActivity"></activity>
         <activity android:name=".Activity.PicCarouselActivity"></activity>
         <activity android:name=".Activity.SQLiteTestActivity"></activity>
+        <activity android:name=".Activity.DynamicallyAddLActivity"></activity>
+        <activity android:name=".Activity.WidgetTestActivity"></activity>
 
         <service android:name=".service.StartScreenReceiverService"></service>
 

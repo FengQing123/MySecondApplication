@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.app.ActivityOptions;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Bundle;
 import android.widget.Toast;
 
 /**
@@ -13,6 +14,12 @@ import android.widget.Toast;
 public class UIHelper {
     public static void showActivity(Activity context, Class clz) {
         Intent intent = new Intent(context, clz);
+        context.startActivity(intent);
+    }
+
+    public static void showActivityWithBundle(Activity context, Class clz, Bundle bundle) {
+        Intent intent = new Intent(context, clz);
+        intent.putExtras(bundle);
         context.startActivity(intent);
     }
 

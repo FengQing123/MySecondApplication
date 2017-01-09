@@ -132,6 +132,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_SQLite:
                 UIHelper.showActivity(this, SQLiteTestActivity.class);
                 break;
+            case R.id.btn_dynamicallyAddLayout:
+                UIHelper.showActivity(this, DynamicallyAddLActivity.class);
+                break;
+            case R.id.btn_widgetTest:
+                Bundle bundle = new Bundle();
+                bundle.putString("value", "Get Value");
+                UIHelper.showActivityWithBundle(this, WidgetTestActivity.class, bundle);
+                break;
         }
     }
 }
