@@ -140,6 +140,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 bundle.putString("value", "Get Value");
                 UIHelper.showActivityWithBundle(this, WidgetTestActivity.class, bundle);
                 break;
+            case R.id.btn_android_location:
+                UIHelper.showActivity(this, AndroidLocationActivity.class);
+                break;
         }
     }
 }

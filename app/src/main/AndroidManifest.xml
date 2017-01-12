@@ -61,6 +61,7 @@
         <activity android:name=".Activity.SQLiteTestActivity"></activity>
         <activity android:name=".Activity.DynamicallyAddLActivity"></activity>
         <activity android:name=".Activity.WidgetTestActivity"></activity>
+        <activity android:name=".Activity.AndroidLocationActivity"></activity>
 
         <service android:name=".service.StartScreenReceiverService"></service>
 
