@@ -12,15 +12,15 @@ import java.util.List;
 public class Test {
     public static void main(String[] args) {
 
-//        if (new Object() {
-//            public boolean f() {
-//                return false;
-//            }
-//        }.f()) {
-//            System.out.println("1");
-//        } else {
-//            System.out.println("2");
-//        }
+        if (new Object() {
+            public boolean f() {
+                return false;
+            }
+        }.f()) {
+            System.out.println("1");
+        } else {
+            System.out.println("2");
+        }
 //
 //        RemoveDuplicateElements();
         /*-------------------------------------------*/

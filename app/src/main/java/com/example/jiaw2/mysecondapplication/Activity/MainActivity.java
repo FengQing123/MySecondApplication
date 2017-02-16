@@ -143,6 +143,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_android_location:
                 UIHelper.showActivity(this, AndroidLocationActivity.class);
                 break;
+            case R.id.btn_bindService:
+                UIHelper.showActivity(this, BindingActivity.class);
+                break;
         }
     }
 }

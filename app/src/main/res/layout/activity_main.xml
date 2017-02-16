@@ -175,6 +175,13 @@
                 android:onClick="onClick"
                 android:text="手机自带gps定位" />
 
+            <Button
+                android:id="@+id/btn_bindService"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="绑定服务" />
+
         </LinearLayout>
     </ScrollView>
 

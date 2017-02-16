@@ -62,8 +62,10 @@
         <activity android:name=".Activity.DynamicallyAddLActivity"></activity>
         <activity android:name=".Activity.WidgetTestActivity"></activity>
         <activity android:name=".Activity.AndroidLocationActivity"></activity>
+        <activity android:name=".Activity.BindingActivity"></activity>
 
         <service android:name=".service.StartScreenReceiverService"></service>
+        <service android:name=".service.LocalService"></service>
 
         <receiver android:name=".receiver.AlarmTestReceiver">
             <intent-filter>
