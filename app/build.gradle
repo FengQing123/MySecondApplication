@@ -2,14 +2,6 @@ apply plugin: 'com.android.application'
 apply plugin: 'android-apt'
 
 android {
-    signingConfigs {
-        key {
-            keyAlias 'mysecondapplication'
-            keyPassword 'focusoo110'
-            storeFile file('C:/Users/jiaw2/Desktop/key/mysecondapplication.jks')
-            storePassword 'focusoo110'
-        }
-    }
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
     defaultConfig {
@@ -18,16 +10,11 @@ android {
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
-        signingConfig signingConfigs.key
     }
     buildTypes {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.key
-        }
-        debug {
-            signingConfig signingConfigs.key
         }
     }
     sourceSets { main { jni.srcDirs = ['src/main/jni', 'src/main/jni/'] } }
