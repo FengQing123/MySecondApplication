@@ -146,6 +146,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_bindService:
                 UIHelper.showActivity(this, BindingActivity.class);
                 break;
+            case R.id.btn_zhihuhead:
+                UIHelper.showActivity(this, ZhiHuBarActivity.class);
+                break;
+            default:
+                break;
         }
     }
 }
