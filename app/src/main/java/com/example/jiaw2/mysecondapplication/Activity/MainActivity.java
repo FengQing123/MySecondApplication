@@ -149,6 +149,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_zhihuhead:
                 UIHelper.showActivity(this, ZhiHuBarActivity.class);
                 break;
+            case R.id.btn_androidHttpTrans:
+                UIHelper.showActivity(this, AndroidHttpTransActivity.class);
+                break;
             default:
                 break;
         }

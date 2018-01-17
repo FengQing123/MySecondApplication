@@ -64,6 +64,7 @@
         <activity android:name=".Activity.AndroidLocationActivity"></activity>
         <activity android:name=".Activity.BindingActivity"></activity>
         <activity android:name=".Activity.ZhiHuBarActivity" />
+        <activity android:name=".Activity.AndroidHttpTransActivity"></activity>
 
         <service android:name=".service.StartScreenReceiverService"></service>
         <service android:name=".service.LocalService"></service>

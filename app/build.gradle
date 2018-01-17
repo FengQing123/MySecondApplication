@@ -53,4 +53,7 @@ dependencies {
 
     /*图片加载的使用（Glide）*/
     compile 'com.github.bumptech.glide:glide:3.6.1'
+
+    /**手机端的Server利用的库*/
+    compile 'com.koushikdutta.async:androidasync:2.+'
 }
