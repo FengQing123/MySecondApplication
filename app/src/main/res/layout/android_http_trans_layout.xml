@@ -4,4 +4,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:text="跳到这个页面后，在网页端输入 手机的ip:54321 就可以查看手机的文件夹下的.mp4视频，\n需要注意的是手机要给该APP提供读取文件的权限，否则读取不到视频文件"
+        android:layout_height="match_parent" />
+
 </LinearLayout>
